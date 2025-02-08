@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//run program by using following commands: gcc new2.c -o new2 && ./new2 SHELL=/bin/sh BYE=byebye
+
 extern char **environ;
 
 int main(int argc, char *argv[]) {
